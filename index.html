@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <link rel="icon" href="logo.png" type="image/x-icon">
-    <title>Bienvenid@</title>
-    <style>
-      @font-face {
-        font-family: "monocraft";
-        src: url("Monocraft.otf") format("opentype");
-      }
+<head>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <title>Bienvenid@</title>
+  <style>
+    @font-face {
+      font-family: "monocraft";
+      src: url("Monocraft.otf") format("opentype");
+    }
 
-      body {
-        font-family: "monocraft", sans-serif;
-        background-image: url("fondo.jpg");
-        background-size: cover;
-      }
-      
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
+    body {
+      font-family: "monocraft", sans-serif;
+      background-image: url("fondo.jpg");
+      background-size: cover;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
 
-      h1 {
-        color: white;
-        text-align: center;
-      }
-	h2 {
-        color: white;
-        text-align: center;
-      }
+    .barra-superior {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+      padding: 10px;
+    }
 
-      p {
-        max-width: 800px;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: white;
-        text-align: center;
-      }
+    .barra-superior a {
+      color: white;
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: 20px;
+    }
 
-      a {
-        font-size: 20px;
-        color: white;
-      }
-    </style>
-  </head>
+    h1 {
+      color: white;
+      text-align: center;
+    }
 
-  <body>
-    <div class="container">
-      <h1>Martin E. Bravo</h1>
-      <h2>Computer Science @ UCHile</h2>
-      <p>
-        Computer Science student highly interested in Artificial Intelligence 
-        and its responsible use to contribute to improving the quality of 
-        life of our society and individuals. 
-      </p>
-      <p>
-          <a href="https://www.linkedin.com/in/martinbraav/">cv</a>
-          <a href="https://www.instagram.com/martin.braav/">ig</a>
-          <a href="https://github.com/martinebravo">gh</a>
-          <a href="https://martinebravo.github.io/page/blog">blog</a>
-      </p>
+    h2 {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      max-width: 800px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="barra-superior">
+      <a href="https://www.linkedin.com/in/martinbraav/">CV</a>
+      <a href="https://www.instagram.com/martin.braav/">IG</a>
+      <a href="https://github.com/martinebravo">GH</a>
+      <a href="https://martinebravo.github.io/page/blog">BLOG</a>
     </div>
-  </body>
+    <h1>Martin E. Bravo</h1>
+    <h2>Computer Science @ UCHile</h2>
+    <p>
+      Computer Science student highly interested in Artificial Intelligence 
+      and its responsible use to contribute to improving the quality of 
+      life of our society and individuals. 
+    </p>
+  </div>
+</body>
 </html>
