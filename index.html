@@ -69,6 +69,12 @@
       color: white;
       text-align: center;
     }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 
@@ -80,13 +86,15 @@
     <a href="https://martinebravo.github.io/page/blog">BLOG</a>
     <a href="">MartinGPT</a>
   </div>
-  <video width="640" height="360" controls>
-    <source src="MartinBravo.mp4" type="video/mp4">
-    Tu navegador no soporta el video.
-  </video>
   <div class="container">
-    <h1>Martin E. Bravo</h1>
     <h2>Computer Science @ UCHile</h2>
+    <h1>Martin E. Bravo</h1>
+    <div class="video-container">
+      <video width="640" height="360" controls>
+        <source src="MartinBravo.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
     <p>
       Computer Science student highly interested in Artificial Intelligence 
       and its responsible use to contribute to improving the quality of 
@@ -95,4 +103,3 @@
   </div>
 </body>
 </html>
-  
