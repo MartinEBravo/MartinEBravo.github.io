@@ -1,0 +1,81 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "monocraft", sans-serif;
+    box-sizing: border-box; /* to make sure that the padding and border are included in the total width and height of the elements */
+}
+
+@font-face {
+    font-family: "monocraft";
+    src: url("Monocraft.otf") format("opentype");
+  }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(fondo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: #ff124f;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow:  -8px -8px 15px rgba(255, 255, 255, 1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}   
+form input.equal{
+    width: 145px;
+    
+}
+
+.barra-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+.barra-superior a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    border-right: 1px solid white;
+  }
+
+  .barra-superior a:last-child {
+    border-right: none;
+  }
