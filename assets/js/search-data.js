@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-first-post-of-the-blog",
+        },{id: "post-going-on-exchange-is-it-worth-it",
+      
+        title: "Going on Exchange. Is it worth it?",
+      
+      description: "We all know the wonders that people say about going on exchange. But is it really worth it? In this post, I share my experience and thoughts about going on exchange to Sweden for a year. Yes, you read that right, a year.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/exchange/";
+        
+      },
+    },{id: "post-first-post-of-the-blog",
       
         title: "First Post of the Blog!",
       
