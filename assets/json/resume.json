@@ -5,8 +5,8 @@
     "image": "",
     "email": "martin16bravo2@gmail.com",
     "phone": "+46 73 584 5084",
-    "url": "https://github.com/MartinEBravo",
-    "summary": "Aspiring MEng student, experienced in Machine Learning, AI, and innovation. Passionate about solving global challenges through technology.",
+    "url": "https://martinebravo.github.io",
+    "summary": "Aspiring Masters student, experienced in Machine Learning, AI, and innovation. Passionate about solving global challenges through technology.",
     "location": {
       "address": "Professorsslingan 7",
       "postalCode": "114 18",
@@ -14,6 +14,7 @@
       "countryCode": "SE",
       "region": "Stockholm County"
     },
+    "languages": "Spanish (Native), English (Fluent), Swedish (Intermediate)",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -34,8 +35,11 @@
       "url": "https://hopsworks.ai",
       "startDate": "2025-01-13",
       "endDate": "Present",
-      "summary": "Developing privacy-preserving machine learning platforms using PySyft and Hopsworks.",
-      "highlights": ["Collaborating on federated learning projects", "Designing scalable and secure ML platforms"]
+      "summary": "Developing the Code Generator Assistant, a tool for automating ML pipelines, preprocessing, and model deployment.",
+      "highlights": [
+        "Collaborating with engineers to design automation tools for ML pipelines",
+        "Implementing scalable solutions for code generation and optimization"
+      ]
     },
     {
       "name": "SoyMomo",
@@ -44,7 +48,22 @@
       "startDate": "2023-12-01",
       "endDate": "2024-08-01",
       "summary": "Developed AI products for family safety, including a child-friendly assistant and baby cry detection models.",
-      "highlights": ["Achieved 92% accuracy in cry classification", "Deployed ML models on Azure ML"]
+      "highlights": [
+        "Achieved 92% accuracy in baby cry detection for various needs (e.g., hunger, discomfort)",
+        "Deployed ML models on Azure ML and implemented real-time performance monitoring"
+      ]
+    },
+    {
+      "name": "National Center for Artificial Intelligence",
+      "position": "Student Intern",
+      "url": "https://www.cenia.cl",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "summary": "Fine-tuned generative AI models for cultural and artistic applications.",
+      "highlights": [
+        "Fine-tuned Stable Diffusion for museum exhibit applications",
+        "Built a tablet-based UI using Flask and JavaScript for real-time image generation"
+      ]
     }
   ],
   "education": [
@@ -55,7 +74,7 @@
       "area": "Machine Learning",
       "studyType": "Exchange Student",
       "startDate": "2024-08-01",
-      "endDate": "2025-06-30",
+      "endDate": "2025-06-02",
       "courses": ["Advanced Machine Learning", "Deep Learning", "Project Management"]
     },
     {
@@ -65,61 +84,49 @@
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor's Degree",
       "startDate": "2021-03-01",
-      "endDate": "2025-07-01",
+      "endDate": "2025-06-02",
       "courses": ["Data Structures", "Algorithms", "Machine Learning"]
     }
   ],
   "awards": [
     {
       "title": "Outstanding Student Award",
-      "date": "2023-12-01",
+      "date": "2023-07-01",
       "awarder": "University of Chile",
-      "summary": "Recognized for academic excellence and extracurricular contributions."
+      "summary": "Recognized for academic excellence."
     },
     {
       "title": "Full Scholarship for Academic Excellence",
       "date": "2021-03-01",
       "awarder": "University of Chile",
-      "summary": "Awarded for being ranked #1 out of 120 students."
+      "summary": "Awarded for excellent results in the admission exam."
     }
   ],
   "skills": [
     {
       "name": "Programming",
       "level": "Expert",
-      "keywords": ["Python", "JavaScript", "C++", "TensorFlow", "PyTorch", "Scikit-learn"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "C++",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "LangChain",
+        "Node.js",
+        "AWS",
+        "Azure ML"
+      ]
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Swedish",
-      "fluency": "Intermediate"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Federated Learning Platform",
-      "summary": "Developed a scalable, privacy-preserving federated learning platform using PySyft and Hopsworks.",
-      "highlights": ["Collaborated with engineers to ensure secure data sharing", "Optimized performance for real-world applications"],
-      "startDate": "2025-01-01",
-      "endDate": "Present",
-      "url": "https://github.com/MartinEBravo/federated-learning"
-    },
-    {
-      "name": "Virtual Museum",
-      "summary": "Built a virtual museum of archaeological sculptures using Unreal Engine 5 and neural networks.",
-      "highlights": ["Integrated NeRF technology", "Enhanced user interaction with 3D visuals"],
-      "startDate": "2023-04-01",
-      "endDate": "2023-09-01",
-      "url": "https://github.com/MartinEBravo/virtual-museum"
+      "name": "Languages",
+      "level": "Fluent",
+      "keywords": [
+        "Spanish (Native)",
+        "English (Fluent)",
+        "Swedish (Intermediate)"
+      ]
     }
   ]
 }
