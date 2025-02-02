@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-going-on-exchange-is-it-worth-it",
-      
-        title: "Going on Exchange. Is it worth it?",
-      
-      description: "We all know the wonders that people say about going on exchange. But is it really worth it? In this post, I share my experience and thoughts about going on exchange to Sweden for a year. Yes, you read that right, a year.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/exchange/";
-        
-      },
-    },{id: "post-first-post-of-the-blog",
+        },{id: "post-first-post-of-the-blog",
       
         title: "First Post of the Blog!",
       
@@ -67,37 +56,37 @@ ninja.data = [{
           title: 'KTH AI Student',
           description: "Dive into the world of AI with this hands-on, beginner-friendly course for students curious about Fullstack AI.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fun_aistudent/";
-            },},{id: "projects-3rd-place-winner-of-the-chilean-air-force-hackathon",
-          title: '3rd Place Winner of the Chilean Air Force Hackathon',
-          description: "An innovative solution designed to address fire detection and monitoring challenges, securing 3rd place in the prestigious Dosafíos competition.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/fun_fach/";
-            },},{id: "projects-interpreting-object-detection-using-b-text-cos",
-          title: 'Interpreting Object Detection using $B\text{-}\cos$',
-          description: "This project explores the application of the B-cos method for inherently interpretable deep learning models, extending its use to object detection tasks using YOLO.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/school_bcos/";
-            },},{id: "projects-movie-rating-predictor-service",
-          title: 'Movie Rating Predictor Service',
-          description: "This project is a serverless ML system that predicts IMDb ratings for movies using a dynamic dataset from Kaggle.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/school_movie/";
-            },},{id: "projects-threads-reviews-text-mining",
-          title: 'Threads Reviews Text Mining',
-          description: "This project is a text mining analysis of reviews from the Threads platform, using different NLP techniques to extract insights.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/school_threads/";
+              window.location.href = "/projects/aistudent/";
             },},{id: "projects-hybrid-ecologies-for-ai-and-society",
           title: 'Hybrid Ecologies for AI and Society',
           description: "A groundbreaking research initiative exploring the intersection of artificial intelligence, ethics, and society, in collaboration with the National Center for Artificial Intelligence (CENIA).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/work_cenia/";
+              window.location.href = "/projects/cenia/";
+            },},{id: "projects-3rd-place-winner-of-the-chilean-air-force-hackathon",
+          title: '3rd Place Winner of the Chilean Air Force Hackathon',
+          description: "An innovative solution designed to address fire detection and monitoring challenges, securing 3rd place in the prestigious Dosafíos competition.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fach/";
             },},{id: "projects-heymomo-ai-assistant",
           title: 'HeyMomo AI Assistant',
           description: "HeyMomo is an AI-powered virtual assistant designed for kids, integrated with the SoyMomo Space 3.0 smartwatch, to make learning and communication fun and safe.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/work_heymomo/";
+              window.location.href = "/projects/heymomo/";
+            },},{id: "projects-movie-rating-predictor-service",
+          title: 'Movie Rating Predictor Service',
+          description: "This project is a serverless ML system that predicts IMDb ratings for movies using a dynamic dataset from Kaggle.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/movie-predictor/";
+            },},{id: "projects-threads-reviews-text-mining",
+          title: 'Threads Reviews Text Mining',
+          description: "This project is a text mining analysis of reviews from the Threads platform, using different NLP techniques to extract insights.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/threads/";
+            },},{id: "projects-interpreting-object-detection-using-b-text-cos",
+          title: 'Interpreting Object Detection using $B\text{-}\cos$',
+          description: "This project explores the application of the B-cos method for inherently interpretable deep learning models, extending its use to object detection tasks using YOLO.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/yolo-bcos/";
             },},{
         id: 'social-email',
         title: 'email',
